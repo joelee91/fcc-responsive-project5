@@ -10,16 +10,16 @@
 </head>
 
 <body>
-  <div class="nav-wrapper">
+  <div id="navbar" class="nav-wrapper">
     <nav class="nav-bar">
       <a href="#about">About</a>
-      <a href="#projects">Projects</a>
+      <a href="#projects-link">Projects</a>
       <a href="#contact">Contact</a>
       <a href="#resume">Resume</a>
     </nav>
   </div>
   <section id="welcome-section">
-    <div class="introduction">
+    <div id="about" class="introduction">
       <h1>
         Joseph Lee
       </h1>
@@ -29,11 +29,14 @@
     </div>
   </section>
   <section id="projects">
+    <div id="projects-link">
+      <!-- Hidden element to allow hashtag link to properly guide user to top of content -->
+    </div>
     <h1 class="projectHeader">
       Projects
     </h1>
     <div class="project-wrapper">
-      <div class="project-item">
+      <div class="project-tile">
         <a href="https://lucid-hawking-a96b39.netlify.com/" target="_blank">
           <img class="project-image" src="https://i.imgur.com/aqvNwwb.jpg" alt="picture of snake project">
         </a>
@@ -58,6 +61,32 @@
           </p>
         </div>
       </div>
+      <div class="project-tile">
+        <a href="https://joelee91.github.io/fcc-responsive-project3/" target="_blank">
+          <img class="project-image" src="https://i.imgur.com/yyGvhvw.png" alt="picture of project">
+        </a>
+        <div class="technologies">
+          <h1>
+            Technologies Used
+          </h1>
+          <div class="techImgWrapper">
+            <img src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" alt="html5 logo">
+            <img src="http://sr-re.com/wp-content/uploads/2015/06/css3.png" alt="css3 logo">
+          </div>
+        </div>
+        <div class="overView">
+          <h1>
+            Overview
+          </h1>
+          <p>
+            This was the 3rd out of 5 projects required to complete the responsive website certification provided
+            by <a href="https://www.freecodecamp.org/">freeCodeCamp</a>. Although the project only required HTML
+            and CSS, it was one of the first few projects that allowed me to practice beginning and finishing a
+            project from scratch.
+          </p>
+        </div>
+      </div>
+    </div>
     </div>
   </section>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
