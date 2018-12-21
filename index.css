@@ -1,0 +1,82 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: cambria;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color: #ffdab3;
+}
+.nav-bar {
+  padding-right: 30px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 80px;
+  font-size: 20px;
+}
+.introduction {
+  text-align: center;
+  height: 100vh;
+  padding-top: 200px;
+  font-size: 30px;
+  background-color: #b3d1ff;
+}
+#projects {
+  height: 100vh;
+}
+.projectHeader {
+  text-align: center;
+  font-size: 50px;
+  color: #b3d1ff;
+}
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.project-item {
+  display: flex;
+}
+.technologies h1 {
+  margin-top: 0px;
+  height: 30px;
+  border-bottom: 2px solid black;
+  margin-left: 20px;
+  width: 300px;
+  text-align: center;
+}
+.techImgWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.technologies img {
+  height: 90px;
+  width: 90px;
+}
+.project-image {
+  width: 350px;
+  height: 270px;
+}
+.overView h1{
+  margin-top: 0px;
+  height: 30px;
+  border-bottom: 2px solid black;
+  margin-left: 20px;
+  width: 400px;
+  text-align: center;
+}
+.overView p {
+  margin-left: 20px;
+  width: 400px;
+  font-size: 20px;
+}
